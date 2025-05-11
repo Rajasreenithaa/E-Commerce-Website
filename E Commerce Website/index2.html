@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadMAX Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">MadMax.IN</div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="Search Amazon.in" oninput="searchProducts()">
+            <button onclick="searchProducts()">🔍</button>
+        </div>
+        <button onclick="myFunction()">🛒 LogOut</button>
+       
+    </header>
+
+    <!-- Slider -->
+    <section class="slider">
+        <button class="prev" onclick="moveSlide(-1)">❮</button>
+        <div class="slides">
+            <img src="image\slid1.jpg" alt="Slide 1">
+            <img src="image\slid2.jpg" alt="Slide 2">
+            <img src="image\slid3.jpg" alt="Slide 3">
+        </div>
+        <button class="next" onclick="moveSlide(1)">❯</button>
+    </section>
+
+    <!-- Product Sections -->
+    <section class="products">
+        <h2>Continue shopping deals</h2>
+        <div class="parent">
+            <div class="product-section">
+                <h3>Best Deals</h3>
+                <div class="product-container" id="productContainer"></div>
+            </div>
+    </section>
+    
+    
+          <!-- Contact Section -->
+          <div class="contact" id="contact" >
+
+            <p>Email: <a href="mailto:meerashree@example.com">Click to Mail Me</a></p>
+            <p>Phone: <a href="tel:+916381999161">+91 6381999161</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/meera-shree-3aba21284" target="_blank">linkedin.com</a></p>
+
+        </div>
+    </div>
+    
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
